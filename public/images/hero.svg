@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pink Dragons dragon boat crew paddling at dawn">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff0f5"/>
+      <stop offset="55%" stop-color="#fff7fa"/>
+      <stop offset="100%" stop-color="#ffe8f0"/>
+    </linearGradient>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff4d8d"/>
+      <stop offset="55%" stop-color="#f70058"/>
+      <stop offset="100%" stop-color="#d1004a"/>
+    </linearGradient>
+    <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe08a"/>
+      <stop offset="100%" stop-color="#f5c84a"/>
+    </linearGradient>
+    <linearGradient id="headGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b9d"/>
+      <stop offset="50%" stop-color="#f70058"/>
+      <stop offset="100%" stop-color="#c40045"/>
+    </linearGradient>
+    <pattern id="scales" width="28" height="16" patternUnits="userSpaceOnUse">
+      <path d="M0 8 Q7 0 14 8 Q21 16 28 8" fill="none" stroke="#c40045" stroke-width="1.4" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <!-- soft sky -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- sun disk -->
+  <circle cx="1180" cy="340" r="210" fill="#ffe9b8" opacity="0.7"/>
+  <circle cx="1180" cy="340" r="150" fill="#fff3d0" opacity="0.55"/>
+
+  <!-- clouds -->
+  <g fill="none" stroke="#f7a0bc" stroke-width="3" opacity="0.55">
+    <path d="M180 220 C220 190 280 190 320 220 C360 200 410 210 430 240 C390 260 250 260 180 220 Z"/>
+    <path d="M980 180 C1020 155 1080 155 1115 180 C1155 160 1200 170 1220 200 C1180 220 1040 220 980 180 Z"/>
+    <path d="M1380 260 C1410 240 1455 242 1480 265 C1505 250 1540 258 1555 280 C1525 295 1420 295 1380 260 Z"/>
+  </g>
+
+  <!-- motion lines -->
+  <g stroke="#f7a0bc" stroke-width="2" opacity="0.35">
+    <line x1="120" y1="470" x2="320" y2="470"/>
+    <line x1="80" y1="500" x2="260" y2="500"/>
+    <line x1="1400" y1="450" x2="1520" y2="450"/>
+  </g>
+
+  <!-- water waves -->
+  <g>
+    <path d="M0 720 C180 690 320 750 500 720 C680 690 820 760 1000 730 C1180 700 1360 760 1600 720 L1600 900 L0 900 Z" fill="#ffd0e0"/>
+    <path d="M0 760 C200 735 360 800 560 770 C760 740 920 810 1120 780 C1320 750 1460 800 1600 770 L1600 900 L0 900 Z" fill="#ffb8d2"/>
+    <path d="M0 820 C220 800 400 860 620 835 C840 810 1040 870 1260 845 C1440 825 1520 850 1600 835 L1600 900 L0 900 Z" fill="#ff9ec4"/>
+    <path d="M80 700 C200 680 280 710 360 695" fill="none" stroke="#fff7fa" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <path d="M980 710 C1100 690 1200 725 1320 705" fill="none" stroke="#fff7fa" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- boat group -->
+  <g transform="translate(40,40)">
+    <!-- hull shadow -->
+    <ellipse cx="780" cy="650" rx="520" ry="28" fill="#e89ab4" opacity="0.45"/>
+
+    <!-- stern / tail -->
+    <path d="M220 560
+             C180 540 150 500 165 460
+             C190 480 210 520 235 545
+             C250 555 245 565 220 560 Z"
+          fill="url(#headGrad)"/>
+    <path d="M175 475 C195 490 210 520 225 545" fill="none" stroke="#ffe0ea" stroke-width="3" opacity="0.55"/>
+
+    <!-- main hull -->
+    <path d="M240 560
+             C320 530 420 515 540 510
+             L1080 505
+             C1180 505 1260 520 1320 545
+             C1280 585 1180 605 1080 610
+             L540 615
+             C400 615 300 595 240 560 Z"
+          fill="url(#hull)"/>
+    <path d="M240 560
+             C320 530 420 515 540 510
+             L1080 505
+             C1180 505 1260 520 1320 545
+             C1280 585 1180 605 1080 610
+             L540 615
+             C400 615 300 595 240 560 Z"
+          fill="url(#scales)"/>
+
+    <!-- deck / gunwale -->
+    <path d="M300 545
+             C400 520 520 512 620 510
+             L1060 505
+             C1140 505 1220 518 1285 540
+             C1220 555 1140 560 1060 560
+             L620 565
+             C500 565 390 560 300 545 Z"
+          fill="url(#deck)"/>
+    <path d="M340 548 C450 528 560 522 680 520 L1040 516" fill="none" stroke="#fff3c4" stroke-width="3" opacity="0.7"/>
+
+    <!-- dragon head (prow) — logo-inspired -->
+    <g transform="translate(1280,430)">
+      <!-- neck -->
+      <path d="M0 120 C20 90 40 70 70 55 C90 80 95 115 85 150 C55 155 20 145 0 120 Z" fill="#f70058"/>
+      <!-- head -->
+      <path d="M55 40
+               C80 10 130 -5 175 15
+               C205 30 220 55 210 85
+               C200 115 165 130 125 125
+               C95 122 70 110 55 90
+               C45 75 45 55 55 40 Z"
+            fill="url(#headGrad)"/>
+      <!-- mane / whiskers -->
+      <path d="M90 35 C70 5 45 -10 20 0 C45 15 65 30 80 50 Z" fill="#ff8ab5"/>
+      <path d="M150 20 C165 -15 200 -25 230 -5 C200 0 175 20 165 45 Z" fill="#ff6b9d"/>
+      <path d="M70 95 C40 100 15 115 0 140 C30 125 55 115 85 110 Z" fill="#d1004a"/>
+      <!-- horn -->
+      <path d="M115 25 L130 -25 L145 28 Z" fill="#ffe08a"/>
+      <path d="M145 30 L168 -10 L175 40 Z" fill="#ffd060"/>
+      <!-- eye -->
+      <ellipse cx="155" cy="60" rx="16" ry="14" fill="#fff7fa"/>
+      <circle cx="160" cy="60" r="7" fill="#3f3f3f"/>
+      <circle cx="163" cy="57" r="2.5" fill="#ffffff"/>
+      <!-- snout / teeth -->
+      <path d="M175 70 C195 65 215 75 220 95 C200 100 180 95 170 85 Z" fill="#c40045"/>
+      <path d="M185 82 L190 95 M198 84 L200 98 M210 88 L210 100" stroke="#fff7fa" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- logo-style circular accent behind head -->
+      <circle cx="100" cy="70" r="78" fill="none" stroke="#f70058" stroke-width="4" opacity="0.25"/>
+    </g>
+
+    <!-- paddle blade peeking like logo -->
+    <g transform="translate(1385,360) rotate(28)">
+      <rect x="-6" y="0" width="12" height="110" rx="4" fill="#ffe08a"/>
+      <path d="M-22 0 L22 0 L16 -55 L-16 -55 Z" fill="#f70058"/>
+      <path d="M-12 -12 L12 -12" stroke="#ffe0ea" stroke-width="2"/>
+    </g>
+
+    <!-- paddlers -->
+    <g>
+      <!-- paddler 1 -->
+      <g transform="translate(480,470)">
+        <ellipse cx="0" cy="8" rx="28" ry="14" fill="#e8a020" opacity="0.35"/>
+        <path d="M-22 20 C-18 -10 18 -10 22 20 L16 55 L-16 55 Z" fill="#f70058"/>
+        <rect x="-18" y="8" width="36" height="28" rx="6" fill="#ffe08a"/>
+        <circle cx="0" cy="-8" r="16" fill="#c47a6a"/>
+        <path d="M-18 -12 C-10 -28 10 -28 18 -12" fill="#d1004a"/>
+        <path d="M10 25 L70 -20" stroke="#fff7fa" stroke-width="7" stroke-linecap="round"/>
+        <path d="M66 -28 L90 -18 L68 -8 Z" fill="#ffe08a"/>
+      </g>
+      <!-- paddler 2 -->
+      <g transform="translate(680,465)">
+        <ellipse cx="0" cy="8" rx="28" ry="14" fill="#e8a020" opacity="0.35"/>
+        <path d="M-22 20 C-18 -10 18 -10 22 20 L16 55 L-16 55 Z" fill="#f70058"/>
+        <rect x="-18" y="8" width="36" height="28" rx="6" fill="#ffe08a"/>
+        <circle cx="0" cy="-8" r="16" fill="#c47a6a"/>
+        <path d="M-18 -12 C-10 -28 10 -28 18 -12" fill="#d1004a"/>
+        <path d="M10 25 L70 -20" stroke="#fff7fa" stroke-width="7" stroke-linecap="round"/>
+        <path d="M66 -28 L90 -18 L68 -8 Z" fill="#ffe08a"/>
+      </g>
+      <!-- paddler 3 -->
+      <g transform="translate(880,460)">
+        <ellipse cx="0" cy="8" rx="28" ry="14" fill="#e8a020" opacity="0.35"/>
+        <path d="M-22 20 C-18 -10 18 -10 22 20 L16 55 L-16 55 Z" fill="#f70058"/>
+        <rect x="-18" y="8" width="36" height="28" rx="6" fill="#ffe08a"/>
+        <circle cx="0" cy="-8" r="16" fill="#c47a6a"/>
+        <path d="M-18 -12 C-10 -28 10 -28 18 -12" fill="#d1004a"/>
+        <path d="M10 25 L70 -20" stroke="#fff7fa" stroke-width="7" stroke-linecap="round"/>
+        <path d="M66 -28 L90 -18 L68 -8 Z" fill="#ffe08a"/>
+      </g>
+      <!-- paddler 4 -->
+      <g transform="translate(1060,458)">
+        <ellipse cx="0" cy="8" rx="28" ry="14" fill="#e8a020" opacity="0.35"/>
+        <path d="M-22 20 C-18 -10 18 -10 22 20 L16 55 L-16 55 Z" fill="#f70058"/>
+        <rect x="-18" y="8" width="36" height="28" rx="6" fill="#ffe08a"/>
+        <circle cx="0" cy="-8" r="16" fill="#c47a6a"/>
+        <path d="M-18 -12 C-10 -28 10 -28 18 -12" fill="#d1004a"/>
+        <path d="M10 25 L70 -20" stroke="#fff7fa" stroke-width="7" stroke-linecap="round"/>
+        <path d="M66 -28 L90 -18 L68 -8 Z" fill="#ffe08a"/>
+      </g>
+    </g>
+
+    <!-- awareness ribbon on hull -->
+    <path d="M700 555
+             C720 530 755 530 760 555
+             C765 530 800 530 820 555
+             C795 580 760 595 760 595
+             C760 595 725 580 700 555 Z"
+          fill="#ffe0ea"/>
+    <path d="M700 555
+             C720 530 755 530 760 555
+             C765 530 800 530 820 555
+             C795 580 760 595 760 595
+             C760 595 725 580 700 555 Z"
+          fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+  </g>
+</svg>
