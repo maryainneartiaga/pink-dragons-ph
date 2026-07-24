@@ -377,8 +377,8 @@
 
 .story {
   background:
-    radial-gradient(ellipse at top left, rgb(247 0 88 / 0.05), transparent 50%),
-    linear-gradient(180deg, var(--white), var(--foam));
+    radial-gradient(ellipse at top left, rgb(247 0 88 / 0.015), transparent 50%),
+    linear-gradient(180deg, var(--white), #fffeff);
 }
 
 .story-grid {
@@ -441,8 +441,8 @@
 
 .chant {
   background:
-    radial-gradient(ellipse at top center, rgb(247 0 88 / 0.06), transparent 55%),
-    linear-gradient(180deg, var(--foam), var(--white));
+    radial-gradient(ellipse at top center, rgb(247 0 88 / 0.018), transparent 55%),
+    linear-gradient(180deg, #fffeff, var(--white));
   text-align: center;
 }
 
@@ -538,7 +538,7 @@
 
 .support {
   background:
-    linear-gradient(180deg, var(--foam), var(--rose-mist) 45%, var(--white));
+    linear-gradient(180deg, var(--white), #fffeff 50%, var(--white));
   text-align: center;
 }
 
@@ -933,7 +933,7 @@
 
 .news-teaser {
   background:
-    linear-gradient(180deg, var(--white), var(--foam));
+    linear-gradient(180deg, var(--white), #fffeff);
 }
 
 .news-teaser h2 {
