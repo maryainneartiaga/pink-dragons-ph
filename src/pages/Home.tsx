@@ -5,35 +5,23 @@ const latestNews = [...newsArticles]
   .sort((a, b) => b.date.localeCompare(a.date))
   .slice(0, 3)
 
-const heroPhotos = [
-  { src: '/images/hero/01.png', className: 'hero-cell hero-cell-a' },
-  { src: '/images/hero/05.png', className: 'hero-cell hero-cell-b' },
-  { src: '/images/hero/02.png', className: 'hero-cell hero-cell-c' },
-  { src: '/images/hero/03.png', className: 'hero-cell hero-cell-d' },
-  { src: '/images/hero/07.png', className: 'hero-cell hero-cell-e' },
-  { src: '/images/hero/04.png', className: 'hero-cell hero-cell-f' },
-  { src: '/images/hero/06.png', className: 'hero-cell hero-cell-g' },
-]
-
 export function Home() {
   return (
     <>
       <section className="hero" aria-label="Pink Dragons Philippines introduction">
         <div className="hero-media" aria-hidden="true">
-          <div className="hero-collage">
-            {heroPhotos.map((photo) => (
-              <div key={photo.src} className={photo.className}>
-                <img src={photo.src} alt="" />
-              </div>
-            ))}
-          </div>
+          <img
+            className="hero-image"
+            src="/images/hero/09.png"
+            alt=""
+          />
           <div className="hero-wash" />
         </div>
 
         <div className="hero-content">
           <img
             className="hero-logo animate-rise"
-            src="/images/logo-mark.png"
+            src="/images/logo.png"
             alt="Pink Dragons Philippines Est. 2025"
           />
           <h1 className="hero-headline animate-rise delay-1">
@@ -96,31 +84,31 @@ export function Home() {
           <ol className="chant-lines">
             <li className="chant-pair">
               <p className="chant-leader">
-                <span className="chant-who">Leader</span>
+                <span className="chant-who">Leader:</span>
                 Pink Dragons!
               </p>
               <p className="chant-all">
-                <span className="chant-who">All</span>
+                <span className="chant-who">All:</span>
                 Stronger Together!
               </p>
             </li>
             <li className="chant-pair">
               <p className="chant-leader">
-                <span className="chant-who">Leader</span>
+                <span className="chant-who">Leader:</span>
                 Survivors!
               </p>
               <p className="chant-all">
-                <span className="chant-who">All</span>
+                <span className="chant-who">All:</span>
                 Fearless Forever!
               </p>
             </li>
             <li className="chant-pair chant-pair-finale">
               <p className="chant-leader">
-                <span className="chant-who">Leader</span>
+                <span className="chant-who">Leader:</span>
                 Pink Dragons! <em>Together</em>
               </p>
               <p className="chant-all chant-finale">
-                <span className="chant-who">All</span>
+                <span className="chant-who">All:</span>
                 We Rise! We Paddle! We Win! 🩷🐉
               </p>
             </li>
