@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Fredoka:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
 
 :root {
   /* Logo pink + softened charcoal (not pure black) */
   --rose: #f70058;
   --rose-deep: #d1004a;
-  --rose-soft: #ffe0ea;
-  --rose-mist: #fff0f5;
+  --rose-soft: #fff5f8;
+  --rose-mist: #fffafc;
   --ink: #3f3f3f;
   --ink-soft: #5a5a5a;
-  --foam: #fff7fa;
-  --mist: #ffe8f0;
+  --foam: #fffcfd;
+  --mist: #fff8fa;
   --lagoon: #6a6a6a;
   --lagoon-deep: #4a4a4a;
-  --sand: #fff5f8;
+  --sand: #fffcfd;
   --text: #3a3a3a;
   --text-muted: #6e6e6e;
   --white: #ffffff;
 
   /*
     Logo typography:
-    - “Pink Dragons” → rounded soft sans (Fredoka)
+    - “Pink Dragons” / headings → Plus Jakarta Sans
     - “PHILIPPINES” → Copperplate (system on macOS; Cinzel fallback)
     - EST / body → clean Helvetica-like sans
   */
-  --font-display: 'Fredoka', 'SF Pro Rounded', system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Helvetica Neue', Helvetica, sans-serif;
   --font-accent: Copperplate, 'Copperplate Gothic Bold', 'Copperplate Gothic Light',
     'Trajan Pro', 'Times New Roman', serif;
   --font-body: 'Helvetica Neue', Helvetica, Arial, 'Figtree', sans-serif;
