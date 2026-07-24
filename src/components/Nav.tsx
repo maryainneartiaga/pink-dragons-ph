@@ -16,7 +16,7 @@ export function Nav() {
       <NavLink to="/" className="nav-brand" end>
         <img
           className="nav-logo"
-          src="/images/logo.png"
+          src={isHome ? '/images/logo-mark.png' : '/images/logo.png'}
           alt=""
           width={40}
           height={40}
